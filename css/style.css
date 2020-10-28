@@ -135,7 +135,7 @@ body .wrapper .navigation .nav-items li:hover .drop-menu li a {
 }
 
 body .wrapper .navigation .nav-items li:hover .drop-menu li:hover {
-  background-color: #FD98AD;
+  background-color: #fd98ad;
 }
 
 body .wrapper .navigation .tools__hidden {
@@ -434,7 +434,7 @@ body .wrapper .footer .footer__licsence {
 }
 
 body .wrapper .footer .footer__licsence p {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 319px) {
@@ -619,6 +619,9 @@ body .wrapper .footer .footer__licsence p {
     color: white;
     font-size: 0.7rem;
   }
+  body .wrapper .navigation {
+    height: 50px;
+  }
   body .wrapper .navigation .brand {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -627,6 +630,9 @@ body .wrapper .footer .footer__licsence p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  body .wrapper .navigation .brand img {
+    width: 150px;
   }
   body .wrapper .navigation .nav-items {
     display: none;
@@ -638,9 +644,11 @@ body .wrapper .footer .footer__licsence p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+    margin-top: 20px;
   }
   body .wrapper .navigation .tools__hidden ul li {
     margin-right: 20px;
@@ -674,6 +682,7 @@ body .wrapper .footer .footer__licsence p {
     color: #000;
   }
   body .wrapper .search__hidden button {
+    margin-top: 5px;
     height: 30px;
     background-color: #000;
     border: none;
@@ -739,6 +748,65 @@ body .wrapper .footer .footer__licsence p {
     color: #000;
     border: 1px solid #000;
   }
+  body .registration {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .registration .registration__heading {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .registration .registration__heading h3 {
+    font-size: 2rem;
+    margin-left: 150px;
+    font-weight: 700;
+  }
+  body .registration .registration__heading p {
+    margin-left: 100px;
+  }
+  body .registration .form-input-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .registration .form-input-email input {
+    margin-left: 180px;
+    max-width: 300px;
+    border: none;
+    outline: none;
+    height: 60px;
+    border-bottom: 2px solid rgba(30, 30, 30, 0.2);
+    -webkit-box-shadow: 0 12px 51px 0 rgba(30, 30, 30, 0.05);
+            box-shadow: 0 12px 51px 0 rgba(30, 30, 30, 0.05);
+  }
+  body .registration .form-input-email button {
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    border: none;
+  }
+  body .registration .form-input-email button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 800;
+  }
   body .navigation-bottom {
     margin-top: 30px;
     background-color: #000;
@@ -761,7 +829,7 @@ body .wrapper .footer .footer__licsence p {
     display: none;
   }
   body .navigation-bottom .container .navigation-bottom__list {
-    height: 200px;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
