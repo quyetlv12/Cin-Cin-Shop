@@ -290,6 +290,12 @@ body .wrapper .highlight-products .card__product-item .btn-add a button:hover {
   border: 1px solid #000;
 }
 
+body .wrapper .highlight-products h3.title {
+  text-transform: uppercase;
+  margin: 10px auto;
+  font-family: tahoma;
+}
+
 body .wrapper .banner img {
   width: 100%;
   display: block;
