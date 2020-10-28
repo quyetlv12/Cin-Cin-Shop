@@ -1,3 +1,5 @@
+
+
 $('.responsive').slick({
     infinite: false,
     speed: 300,
