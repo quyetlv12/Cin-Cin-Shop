@@ -144,6 +144,8 @@ body .wrapper .navigation .nav-items li a {
 body .wrapper .navigation .nav-items li .drop-menu {
   position: absolute;
   display: none;
+  -webkit-box-shadow: 0.4px 0.5px 0.7px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0.4px 0.5px 0.7px 1px rgba(0, 0, 0, 0.4);
 }
 
 body .wrapper .navigation .nav-items li:nth-child(3) {

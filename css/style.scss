@@ -110,6 +110,7 @@ body {
           .drop-menu {
             position: absolute;
             display: none;
+            box-shadow: 0.4px 0.5px 0.7px 1px rgba(0,0,0,0.4);
           }
           &:nth-child(3) {
             position: relative;
