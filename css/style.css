@@ -465,6 +465,20 @@ body .wrapper .footer .footer__licsence p {
   font-size: 0.8rem;
 }
 
+.wrapper .interdepend__heading {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .interdepend__heading h3 {
+  text-transform: uppercase;
+}
+
 .wrapper .deail-products .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -536,6 +550,7 @@ body .wrapper .footer .footer__licsence p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
 }
 
 .wrapper .deail-products .container .detail__share ul {
@@ -546,6 +561,67 @@ body .wrapper .footer .footer__licsence p {
 
 .wrapper .deail-products .container .detail__share ul li {
   margin-left: 10px;
+}
+
+.wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper .container .slick-slide {
+  outline: none;
+}
+
+.wrapper .container .card__product-item {
+  text-align: center;
+}
+
+.wrapper .container .card__product-item h5 {
+  font-size: 0.8rem;
+}
+
+.wrapper .container .card__product-item img {
+  padding: 40px;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.wrapper .container .card__product-item img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.wrapper .container .card__product-item p:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+.wrapper .container .card__product-item p i {
+  font-size: 0.6rem;
+}
+
+.wrapper .container .card__product-item p span {
+  font-size: 0.6rem;
+}
+
+.wrapper .container .card__product-item .btn-add a button {
+  border: none;
+  background-color: #000;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 500;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.wrapper .container .card__product-item .btn-add a button:hover {
+  background-color: white;
+  color: #000;
+  border: 1px solid #000;
 }
 
 @media (max-width: 319px) {
