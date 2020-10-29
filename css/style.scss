@@ -40,6 +40,18 @@ a {
 ::-webkit-scrollbar-thumb:window-inactive {
 background: #FFB2D1; 
 }
+.btn-backtotop{
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #000;
+  opacity: .3;
+  
+}
+
 body {
 
   font-family: Arial, "Helvetica Neue", sans-serif;
@@ -414,6 +426,7 @@ body {
          height: 30px;
          border: none;
          outline: none;
+         
        }
        input{
          width: 50px;
@@ -431,6 +444,7 @@ body {
          width: 450px;
          height: 50px;
          background-color: #000;
+         border: 1px solid #fff;
          color: #fff;
          font-size: 0.7rem;
          transition: all 1s ease-in-out;
@@ -451,57 +465,6 @@ body {
           display: flex;
           li{
             margin-left: 10px;
-          }
-        }
-      }
-    }
-  }
-  .container {
-    display: flex;
-    justify-content: space-around;
-    .slick-slide {
-      outline: none;
-    }
-    .card__product-item {
-      text-align: center;
-      h5 {
-        font-size: 0.8rem;
-      }
-      img {
-        padding: 40px;
-        transition: all 2s ease-in-out;
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      p {
-        &:nth-child(1) {
-          font-size: 1.5rem;
-        }
-        i {
-          font-size: 0.6rem;
-        }
-        span {
-          font-size: 0.6rem;
-        }
-      }
-
-      .btn-add {
-        a {
-          button {
-            border: none;
-            background-color: #000;
-            color: white;
-            width: 200px;
-            height: 50px;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: all 1s ease-in-out;
-            &:hover {
-              background-color: white;
-              color: #000;
-              border: 1px solid #000;
-            }
           }
         }
       }

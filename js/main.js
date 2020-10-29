@@ -31,3 +31,23 @@ $('.responsive').slick({
       }
     ]
 });
+
+
+
+
+let timneOut;
+let btn_scroll = document.getElementById("btn-btt");
+scrollToTop = () =>{
+    if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
+        window.scrollBy(0,-50);
+        timneOut = setTimeout('scrollToTop()', 10);
+    }
+    else if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0) {
+        btn_scroll.style.display="none";
+    }
+    else{
+        clearTimeout(timeOut);
+        
+    }
+    
+}
