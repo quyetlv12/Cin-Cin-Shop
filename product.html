@@ -24,6 +24,7 @@
     <script src="./js/jquery-1.10.2.js"></script>
     <script src="./js/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="https://unpkg.com/js-image-zoom@0.4.1/js-image-zoom.js" type="application/javascript"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -97,8 +98,8 @@
 
         <section class="deail-products">
             <div class="container">
-                <div class="image-product">
-                    <img src="./images/producs/mac-1-360x440.jpg" alt="">
+                <div class="image-product " id="img-container">
+                    <img src="https://cinicin.exdomain.net/image/cache/catalog/products/mac-7-750x900.jpg"  alt="">
                 </div>
                 <div class="detail">
                     <h3>MAC VELVET TEDDY LIP DUO</h3>
@@ -273,6 +274,14 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script>
+        var options = {
+            width: 400,
+            zoomWidth: 500,
+            offset: {vertical: 0, horizontal: 10}
+        };
+        new ImageZoom(document.getElementById("img-container"), options);
     </script>
 </body>
 <button class="btn-backtotop" id="btn-btt" onclick="scrollToTop();return false"><i class="fas fa-angle-up"></i>
