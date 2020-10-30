@@ -479,6 +479,21 @@ body .wrapper .footer .footer__licsence p {
   font-size: 0.8rem;
 }
 
+.wrapper .related-products-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .related-products-line .line {
+  width: 90%;
+  height: .5px;
+  background: #dedede;
+}
+
 .wrapper .interdepend__heading {
   margin-top: 20px;
   display: -webkit-box;
@@ -592,6 +607,31 @@ body .wrapper .footer .footer__licsence p {
 
 .wrapper .deail-products .container .detail__share ul li {
   margin-left: 10px;
+}
+
+.wrapper .related-products h3.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.wrapper .related-products .container .related__products-items {
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper .related-products .container .related__products-items img {
+  width: 100%;
+}
+
+.wrapper .related-products .container .related__products-items p {
+  font-size: .6rem;
 }
 
 @media (max-width: 319px) {

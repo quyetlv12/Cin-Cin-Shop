@@ -381,9 +381,23 @@ body {
 }
 
 //==============product =================
-
+@mixin line {
+  .related-products-line{
+    display: flex;
+    justify-content: center;
+    .line{
+     
+      width: 90%;
+      height: .5px;
+      background: rgb(222, 222, 222);
+    }
+   
+  }
+  
+}
 
 .wrapper{
+  @include line();
   .interdepend__heading{
     margin-top: 20px;
     display: flex;
@@ -479,6 +493,31 @@ body {
             margin-left: 10px;
           }
         }
+      }
+    }
+  }
+  .related-products{
+
+    h3.title{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+   
+    .container{
+      
+      .related__products-items{
+        margin-top: 30px;
+        margin-left: 100px;
+        text-align: center;
+        width: 100%;
+        img{
+          width: 100%;
+        }
+        p{
+          font-size: .6rem;
+        }
+        
       }
     }
   }
