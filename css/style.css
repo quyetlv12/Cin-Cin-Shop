@@ -50,6 +50,7 @@ a {
   right: 0;
   bottom: 50%;
   background: none;
+  margin-right: 10px;
   border: none;
   outline: none;
   color: #000;
@@ -248,6 +249,12 @@ body .wrapper .highlight-products {
   outline: none;
 }
 
+body .wrapper .highlight-products h3.title {
+  text-transform: uppercase;
+  margin: 10px auto;
+  font-family: tahoma;
+}
+
 body .wrapper .highlight-products .highlight__products-heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,12 +307,6 @@ body .wrapper .highlight-products .card__product-item .btn-add a button:hover {
   background-color: white;
   color: #000;
   border: 1px solid #000;
-}
-
-body .wrapper .highlight-products h3.title {
-  text-transform: uppercase;
-  margin: 10px auto;
-  font-family: tahoma;
 }
 
 body .wrapper .banner img {
@@ -498,6 +499,11 @@ body .wrapper .footer .footer__licsence p {
   display: flex;
 }
 
+.wrapper .deail-products .container .image-product img {
+  width: 500px;
+  height: 600px;
+}
+
 .wrapper .deail-products .container h3 {
   font-size: 1.5rem;
 }
@@ -523,18 +529,29 @@ body .wrapper .footer .footer__licsence p {
 }
 
 .wrapper .deail-products .container .number-products button {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: none;
   outline: none;
+  border: 1px solid #cdcdcd;
+  background: none;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.wrapper .deail-products .container .number-products button:hover {
+  background: #000;
+  color: #fff;
 }
 
 .wrapper .deail-products .container .number-products input {
-  width: 50px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   outline: none;
+  border: 1px solid #cdcdcd;
   -webkit-box-shadow: 0.5px 0.6 0.2px #333;
           box-shadow: 0.5px 0.6 0.2px #333;
+  text-align: center;
 }
 
 .wrapper .deail-products .container .btn-add-cart {
@@ -984,6 +1001,117 @@ body .wrapper .footer .footer__licsence p {
   body .navigation-bottom .container .navigation-bottom__list li a {
     color: #fff;
     text-decoration: none;
+  }
+  body .wrapper .interdepend__heading {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .wrapper .interdepend__heading h3 {
+    text-transform: uppercase;
+  }
+  body .wrapper .deail-products .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .wrapper .deail-products .container .image-product img {
+    width: 500px;
+    height: 600px;
+  }
+  body .wrapper .deail-products .container h3 {
+    font-size: 1.5rem;
+  }
+  body .wrapper .deail-products .container p.evaluate i.fa-star {
+    font-size: .8rem;
+  }
+  body .wrapper .deail-products .container p.evaluate span {
+    font-size: .8rem;
+  }
+  body .wrapper .deail-products .container p.price {
+    font-size: 1rem;
+  }
+  body .wrapper .deail-products .container ul.evaluate {
+    list-style: square;
+  }
+  body .wrapper .deail-products .container ul.evaluate li {
+    list-style-type: disc;
+  }
+  body .wrapper .deail-products .container .number-products button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    background: none;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+  }
+  body .wrapper .deail-products .container .number-products button:hover {
+    background: #000;
+    color: #fff;
+  }
+  body .wrapper .deail-products .container .number-products input {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    -webkit-box-shadow: 0.5px 0.6 0.2px #333;
+            box-shadow: 0.5px 0.6 0.2px #333;
+    text-align: center;
+  }
+  body .wrapper .deail-products .container .btn-add-cart {
+    margin-top: 20px;
+  }
+  body .wrapper .deail-products .container .btn-add-cart .btn-add {
+    border: none;
+    width: 450px;
+    height: 50px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  body .wrapper .deail-products .container .btn-add-cart .btn-add:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 900;
+    border: 1px dashed #000;
+  }
+  body .wrapper .deail-products .container .detail__share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+  }
+  body .wrapper .deail-products .container .detail__share ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .wrapper .deail-products .container .detail__share ul li {
+    margin-left: 10px;
+  }
+  body .btn-backtotop {
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    background: none;
+    margin-right: 70px;
+    border: none;
+    outline: none;
+    color: #000;
+    opacity: .3;
   }
 }
 /*# sourceMappingURL=style.css.map */

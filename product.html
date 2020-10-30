@@ -14,6 +14,16 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- ========link css============ -->
     <link rel="stylesheet" href="./css/style.css">
+
+
+    <link href="./js/slick.css" rel="stylesheet" />
+    <link href="./js/slick-theme.css" rel="stylesheet" />
+
+
+
+    <script src="./js/jquery-1.10.2.js"></script>
+    <script src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -106,12 +116,13 @@
                         <li>Tình trạng: Còn trong kho</li>
                     </ul>
                     <div class="number-products">
+                        <span>Số lượng : </span>
                         <button> -</button>
                         <input type="text" value="1" >
                         <button>+</button>
                     </div>
                     <div class="btn-add-cart">
-                        <button class="btn-add">Thêm vào giỏ hàng</button>
+                        <button class="btn-add">XEM CHI TIẾT hàng</button>
                     </div>
                     <div class="detail__share"><b>
                         Share : 
@@ -133,86 +144,6 @@
 
         <!-- =================end detail=========== -->
 
-
-        <section class="interdepend">
-            <div class="interdepend__heading">
-                <h3>Sản phẩm liên quan</h3>
-            </div>
-            <div class="interdepend__products">
-                <div class="container">
-                    <div class="card__product-item">
-                        <a href="./product.html" style="text-decoration: none;color:black">
-
-
-
-                            <div class="image">
-                                <img src="./images/producs/mac-1-360x440.jpg" alt="">
-                            </div>
-                           
-                        </a>
-                        <div class="content">
-                            <h5>MAC WHIRL & WHIRL LIP DUO</h5>
-                            <p>MAC084239</p>
-                            <span class="price">980,000Đ</span>
-                            <p>
-                                <i class="fa  fa-star"></i>
-                                <i class="fa  fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <span>1 REVIEW</span>
-                            </p>
-                        </div>
-                      
-                        <div class="btn-add">
-                            <a href="#"><button>THÊM VÀO GIỎ</button></a>
-                        </div>
-                    </div>
-                    <div class="card__product-item">
-                        <div>
-                            <img src="./images/producs/mac-4-360x440.jpg" alt="">
-                        </div>
-                        <div>
-                            <h5>MAC WHIRL & WHIRL LIP DUO</h5>
-                            <p>MAC084239</p>
-                           <span class="price">980,000Đ</span>
-                            <p>
-                                <i class="fa  fa-star"></i>
-                                <i class="fa  fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <span>1 REVIEW</span>
-                            </p>
-                        </div>
-                        <div class="btn-add">
-                            <a href="#"><button>THÊM VÀO GIỎ</button></a>
-                        </div>
-                    </div>
-                    <div class="card__product-item">
-                        <div class="images">
-                            <img src="./images/producs/mac-3-360x440.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h5>MAC WHIRL & WHIRL LIP DUO</h5>
-                            <p>MAC084239</p>
-                           <span class="price">980,000Đ</span>
-                            <p>
-                                <i class="fa  fa-star"></i>
-                                <i class="fa  fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <span>1 REVIEW</span>
-                            </p>
-                        </div>
-                        <div class="btn-add">
-                            <a href="#"><button>THÊM VÀO GIỎ</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 
@@ -266,5 +197,21 @@
             </div>
         </footer>
     </div>
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
+<button class="btn-backtotop" id="btn-btt" onclick="scrollToTop();return false"><i class="fas fa-angle-up"></i>
+    <p>TOP</p>
+
+
+
+
 </html>
