@@ -62,9 +62,10 @@ write_review.addEventListener('click', () =>{
     input_review.classList.toggle("input-review-show")
 })
 
-let star = document.getElementById("star");
+
+let btn_review = document.getElementById("btn-request-review");
 
 
-star.addEventListener('click',() =>{
-    star.classList.toggle("star-click");
+btn_review.addEventListener('click', () =>{
+    alert("Bạn đã gửi đánh giá");
 })
