@@ -38,13 +38,13 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FFB2D1;
+  background: #ffb2d1;
   -webkit-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: #FFB2D1;
+  background: #ffb2d1;
 }
 
 .btn-backtotop {
@@ -56,7 +56,7 @@ a {
   border: none;
   outline: none;
   color: #000;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 body {
@@ -492,7 +492,7 @@ body .wrapper .footer .footer__licsence p {
 
 .wrapper .related-products-line .line {
   width: 90%;
-  height: .5px;
+  height: 0.5px;
   background: #dedede;
 }
 
@@ -526,11 +526,11 @@ body .wrapper .footer .footer__licsence p {
 }
 
 .wrapper .deail-products .container p.evaluate i.fa-star {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .wrapper .deail-products .container p.evaluate span {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .wrapper .deail-products .container p.price {
@@ -633,7 +633,7 @@ body .wrapper .footer .footer__licsence p {
 }
 
 .wrapper .related-products .container .related__products-items p {
-  font-size: .6rem;
+  font-size: 0.6rem;
 }
 
 .wrapper .evaluate .container {
@@ -655,43 +655,104 @@ body .wrapper .footer .footer__licsence p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .wrapper .evaluate .container-2 .input-review-none {
   display: none;
 }
 
-.wrapper .evaluate .container-2 .input-review-show {
-  display: block;
+.wrapper .evaluate .container-2 .input-review-none .star {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.wrapper .evaluate .container-2 .center .stars {
-  left: 0;
-}
-
-.wrapper .evaluate .container-2 .stars input {
+.wrapper .evaluate .container-2 .input-review-none .star input.star-rate {
   display: none;
 }
 
-.wrapper .evaluate .container-2 .stars label {
-  float: right;
-  font-size: 40px;
-  color: lightgrey;
-  text-shadow: 1px 1px #bbb;
+.wrapper .evaluate .container-2 .input-review-none .star label {
+  font-size: 35px;
+  color: #333;
 }
 
-.wrapper .evaluate .container-2 .stars label:before {
-  content: '★';
+.wrapper .evaluate .container-2 .input-review-none .star label::before {
+  content: "★";
 }
 
-.wrapper .evaluate .container-2 .stars input:checked ~ label {
+.wrapper .evaluate .container-2 .input-review-none .star input.star-rate:hover ~ label {
+  color: gold;
+}
+
+.wrapper .evaluate .container-2 .input-review-none .star input.star-rate:checked ~ label {
+  color: gold;
+}
+
+.wrapper .evaluate .container-2 .input-review-show {
+  display: block;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.wrapper .evaluate .container-2 form input {
+  width: 1150px;
+  outline: none;
+  border: 1px solid #b7b7b7;
+}
+
+.wrapper .evaluate .container-2 form input::-webkit-input-placeholder {
+  margin-left: 50px;
+}
+
+.wrapper .evaluate .container-2 form input:-ms-input-placeholder {
+  margin-left: 50px;
+}
+
+.wrapper .evaluate .container-2 form input::-ms-input-placeholder {
+  margin-left: 50px;
+}
+
+.wrapper .evaluate .container-2 form input::placeholder {
+  margin-left: 50px;
+}
+
+.wrapper .evaluate .container-2 form textarea {
+  outline: none;
+  border: 1px solid #b7b7b7;
+}
+
+.wrapper .evaluate .container-2 .btn-request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.wrapper .evaluate .container-2 .btn-request button {
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  width: 100px;
+  height: 50px;
+  border: none;
+  -webkit-transition: all 1.4s ease-in-out;
+  transition: all 1.4s ease-in-out;
+}
+
+.wrapper .evaluate .container-2 .btn-request button:hover {
+  background-color: #fff;
   color: #000;
-  text-shadow: 1px 1px #c60;
-}
-
-.wrapper .evaluate .container-2 .stars input:hover ~ label {
-  color: #000;
-  text-shadow: 1px 1px #c60;
+  border: 3px solid #000;
 }
 
 @media (max-width: 319px) {
@@ -1134,10 +1195,10 @@ body .wrapper .footer .footer__licsence p {
     font-size: 1.5rem;
   }
   body .wrapper .deail-products .container p.evaluate i.fa-star {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   body .wrapper .deail-products .container p.evaluate span {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   body .wrapper .deail-products .container p.price {
     font-size: 1rem;
@@ -1214,7 +1275,7 @@ body .wrapper .footer .footer__licsence p {
     border: none;
     outline: none;
     color: #000;
-    opacity: .3;
+    opacity: 0.3;
   }
 }
 /*# sourceMappingURL=style.css.map */
