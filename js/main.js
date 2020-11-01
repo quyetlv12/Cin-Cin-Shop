@@ -51,3 +51,20 @@ scrollToTop = () =>{
     }
     
 }
+
+
+
+let write_review = document.getElementById("write-review");
+
+
+write_review.addEventListener('click', () =>{
+    let input_review =document.getElementById("input-review");
+    input_review.classList.toggle("input-review-show")
+})
+
+let star = document.getElementById("star");
+
+
+star.addEventListener('click',() =>{
+    star.classList.toggle("star-click");
+})

@@ -1,5 +1,5 @@
 //themes name : cin cin shop
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -520,6 +520,75 @@ body {
         
       }
     }
+  }
+  .evaluate{
+    .container{
+      display: flex;
+      justify-content: space-between;
+      .star-review{
+      
+      }
+
+
+      .write{
+
+        .write-review{
+        
+          border-bottom: 3px solid #000; 
+          cursor: pointer;
+        }
+       
+      }
+      
+    }
+
+
+
+
+    .container-2{
+      margin: auto 50px;
+      display: flex;
+
+      .input-review-none{
+        display: none;
+      }
+      .input-review-show{
+        display: block ;
+      }
+      .center .stars{
+        left: 0;
+      }
+      .stars input{
+        display: none;
+      }
+      .stars label{
+        float: right;
+        font-size: 40px;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+      }
+      .stars label:before{
+        content: '★';
+      }
+      .stars input:checked ~ label{
+        color: #000;
+        text-shadow: 1px 1px #c60;
+      }
+      .stars input:hover ~ label{
+        color: #000;
+        text-shadow: 1px 1px #c60;
+      }
+
+
+
+
+    }
+
+
+
+
+   
+    
   }
 }
 

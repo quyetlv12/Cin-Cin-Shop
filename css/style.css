@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -632,6 +634,64 @@ body .wrapper .footer .footer__licsence p {
 
 .wrapper .related-products .container .related__products-items p {
   font-size: .6rem;
+}
+
+.wrapper .evaluate .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .evaluate .container .write .write-review {
+  border-bottom: 3px solid #000;
+  cursor: pointer;
+}
+
+.wrapper .evaluate .container-2 {
+  margin: auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .evaluate .container-2 .input-review-none {
+  display: none;
+}
+
+.wrapper .evaluate .container-2 .input-review-show {
+  display: block;
+}
+
+.wrapper .evaluate .container-2 .center .stars {
+  left: 0;
+}
+
+.wrapper .evaluate .container-2 .stars input {
+  display: none;
+}
+
+.wrapper .evaluate .container-2 .stars label {
+  float: right;
+  font-size: 40px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+
+.wrapper .evaluate .container-2 .stars label:before {
+  content: '★';
+}
+
+.wrapper .evaluate .container-2 .stars input:checked ~ label {
+  color: #000;
+  text-shadow: 1px 1px #c60;
+}
+
+.wrapper .evaluate .container-2 .stars input:hover ~ label {
+  color: #000;
+  text-shadow: 1px 1px #c60;
 }
 
 @media (max-width: 319px) {
