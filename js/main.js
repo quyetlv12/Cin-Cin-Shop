@@ -69,3 +69,27 @@ let btn_review = document.getElementById("btn-request-review");
 btn_review.addEventListener('click', () =>{
     alert("Bạn đã gửi đánh giá");
 })
+
+
+
+
+
+
+minus = () =>{
+    var t = document.getElementById("output").value;
+    document.getElementById("output").value = parseInt(t)-1;
+
+
+    if(t <= 1){
+        alert("sản phẩm nhỏ nhất = 1");
+        t.focus();
+        document.getElementById("output").innerHTML = "1";
+    }
+}
+
+plus = () =>{
+    var t = document.getElementById("output").value;
+    document.getElementById("output").value = parseInt(t) + 1;
+}
+
+

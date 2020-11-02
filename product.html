@@ -25,6 +25,7 @@
     <script src="./js/jquery-1.10.2.js"></script>
     <script src="./js/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
+   <link rel="stylesheet" href="./css/animate.css">
 </head>
 
 <body>
@@ -99,8 +100,8 @@
 
         <section class="deail-products">
             <div class="container">
-                <div class="image-product">
-                    <img src="./images/producs/mac-1-360x440.jpg" alt="">
+                <div class="image-product ">
+                    <img class="" src="./images/producs/mac-1-360x440.jpg" alt="">
                 </div>
 
                 <div class="detail">
@@ -120,12 +121,13 @@
                     </ul>
                     <div class="number-products">
                         <span>Số lượng : </span>
-                        <button> -</button>
-                        <input type="text" value="1">
-                        <button>+</button>
+                       <input onclick="minus()" type="button" value="-">
+                       
+                        <input type="text" value="1" id="output">
+                        <input onclick="plus()" type="button" value="+">
                     </div>
                     <div class="btn-add-cart">
-                        <button class="btn-add">XEM CHI TIẾT hàng</button>
+                        <button class="btn-add wow shake" data-wow-iteration="5">THÊM VÀO GIỎ</button>
                     </div>
                     <div class="detail__share"><b>
                             Share :
@@ -153,7 +155,7 @@
             </div>
             <div class="container">
 
-                <div style="display: flex;justify-content: center; width: 100%;" class="slider responsive"
+                <div style="display: flex;justify-content: center; width: 100%;" class="slider responsive " 
                     role="toolbar">
                     <div class="related__products-items">
                         <img src="./images/producs/mac-1-360x440.jpg" alt="">
@@ -322,16 +324,18 @@
         </footer>
     </div>
     <script src="./js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/wow.js"></script>
 
 </body>
 <button class="btn-backtotop" id="btn-btt" onclick="scrollToTop();return false"><i class="fas fa-angle-up"></i>
     <p>TOP</p>
+
+
+
+    <script>
+        new WOW().init();
+    </script>
 
 
 
