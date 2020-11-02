@@ -705,6 +705,30 @@ body {
   }
 }
 
+
+
+
+// ========about us=======
+
+
+.wrapper{
+  .about{
+    .about__heading{
+      display: flex;
+      justify-content: center;
+      h2{
+        text-transform: uppercase;
+        border: 1px solid #333;
+        padding: 20px;
+        font-size: 1rem;
+      }
+    }
+    .content{
+      
+    }
+  }
+}
+
 ///reponsive
 
 @media (max-width: 319px) {
