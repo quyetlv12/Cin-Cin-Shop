@@ -795,7 +795,25 @@ body {
          }
        }
        form{
-
+         margin-left: 50px;
+         display: flex;
+         flex-direction: column;
+         border: 1px solid #000;
+         padding: 40px;
+         .btn-next{
+           display: flex;
+           justify-content: flex-end;
+          button{
+            margin-top: 30px;
+            width: 100px;
+            height: 30px;
+            background-color: #000;
+            color: white;
+            border: none;
+            font-size: .7rem;
+          }
+         }
+       
        }
 
      }
