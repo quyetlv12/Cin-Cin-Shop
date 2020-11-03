@@ -114,7 +114,7 @@
                     <div class="deatail">
                         <h3>Liên hệ chúng tôi</h3>
                         <b>Địa chỉ : Ngõ 34 âu cơ , Tây Hồ, Hà Nội</b>
-                        <a href="https://www.google.com/maps/place/Vietlesson+-+Learn+Languages+%26+Connect+Cultures/@21.0608396,105.8319465,17z/data=!3m1!4b1!4m5!3m4!1s0x3135aa541b811f21:0x8df3d1f6f5bd045c!8m2!3d21.0608396!4d105.8341352?hl=vi-VN"><button>Xem trên bản đồ </button></a>
+                       <button onclick="showMap()">Xem trên bản đồ </button>
                         <b>Số điện thoại : 0123456789</b>
                     </div>
                     <div>
@@ -225,4 +225,10 @@
     <script src="./js/wow.js"></script>
     <script src="./js/jquery-3.3.1.min.js"></script>
 </body>
+<button class="btn-backtotop" id="btn-btt" onclick="scrollToTop();return false"><i class="fas fa-angle-up"></i>
+    <p>TOP</p>
+    </button>
+<script>
+    new WOW().init();
+</script>
 </html>
