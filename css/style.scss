@@ -773,6 +773,35 @@ body {
     }
   }
 }
+
+
+// ==========contact==========
+.wrapper{
+  .map{
+   .container{
+     .contact-us{
+       display: flex;
+       .deatail{
+         display: flex;
+         flex-direction: column;
+         button{
+           color: white;
+           background-color: #000;
+           height: 50px;
+           border-radius: 10px;
+           font-size: 1rem;
+           padding: 10px;
+           border: 2px solid pink;
+         }
+       }
+       form{
+
+       }
+
+     }
+   }
+  }
+}
 ///reponsive
 
 @media (max-width: 319px) {
