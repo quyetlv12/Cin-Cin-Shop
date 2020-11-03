@@ -104,7 +104,42 @@ body {
               color: white;
               font-size: 0.8rem;
             }
+            
           }
+          li.seach-box{
+            .btn-search{
+              background: none;
+              color: white;
+              border: none;
+              outline: none;
+
+            }
+            .input-search{
+          display: none;
+            
+           
+
+            }
+            .input-search-show{
+              display: block;
+             
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              input{
+                width: 500px;
+                height: 50px;
+                border: 1px solid pink;
+                outline: none;
+                border-radius: 10px;
+                // &::after{
+                //   border-top: 9px solid #fff;
+                // }
+              }
+            }
+          }
+          
         }
       }
     }

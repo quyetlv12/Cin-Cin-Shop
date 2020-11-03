@@ -96,4 +96,15 @@ plus = () =>{
     document.getElementById("output").value = parseInt(t) + 1;
 }
 
+// ========seach box
 
+
+
+
+
+
+
+function showSeachBox() {
+    let search_box = document.getElementById("input-search");
+    search_box.classList.toggle("input-search-show");
+}

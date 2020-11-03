@@ -133,6 +133,39 @@ body .wrapper .header__about .about .about__tools li a {
   font-size: 0.8rem;
 }
 
+body .wrapper .header__about .about .about__tools li.seach-box .btn-search {
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+body .wrapper .header__about .about .about__tools li.seach-box .input-search {
+  display: none;
+}
+
+body .wrapper .header__about .about .about__tools li.seach-box .input-search-show {
+  display: block;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .header__about .about .about__tools li.seach-box .input-search-show input {
+  width: 500px;
+  height: 50px;
+  border: 1px solid pink;
+  outline: none;
+  border-radius: 10px;
+}
+
 body .wrapper .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
