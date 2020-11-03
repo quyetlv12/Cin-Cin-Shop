@@ -729,6 +729,50 @@ body {
   }
 }
 
+
+
+
+// ===========NEWS========
+.wrapper{
+  .news-heading{
+    display: flex;
+    justify-content: center;
+    h2{
+      border: 1px solid #000;
+      padding: 20px;
+      font-size: 1rem;
+    }
+    
+  }
+  .news{
+    .container{
+      display: flex;
+      margin-top: 20px;
+      .cart-new{
+        text-align: center;
+
+        h3{
+          font-size: 1rem;
+        }
+        button{
+          width: 200px;
+          height: 50px;
+          background-color: #000;
+          color: white;
+          border-radius: 10px;
+          border: none;
+          transition: all 2s ease-out;
+          font-weight: 500;
+          &:hover{
+            background-color:white ;
+          color: #000;
+          border: 3px solid #000;
+          }
+        }
+      }
+    }
+  }
+}
 ///reponsive
 
 @media (max-width: 319px) {
