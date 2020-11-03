@@ -161,5 +161,5 @@ function showSeachBox() {
 
 
 function showMap(){
-    window.open('https://www.google.com/maps/place/Vietlesson+-+Learn+Languages+%26+Connect+Cultures/@21.0608396,105.8319465,17z/data=!3m1!4b1!4m5!3m4!1s0x3135aa541b811f21:0x8df3d1f6f5bd045c!8m2!3d21.0608396!4d105.8341352?hl=vi-VN', 'VietLesson', 'width=700,height=700');
+    window.open('https://www.google.com/maps/place/Vietlesson+-+Learn+Languages+%26+Connect+Cultures/@21.0608396,105.8319465,17z/data=!3m1!4b1!4m5!3m4!1s0x3135aa541b811f21:0x8df3d1f6f5bd045c!8m2!3d21.0608396!4d105.8341352?hl=vi-VN', 'VietLesson', 'width=1368,height=768');
 }
