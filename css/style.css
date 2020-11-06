@@ -251,6 +251,11 @@ body .wrapper .search__hidden {
   display: none;
 }
 
+body .wrapper .slider-banner img {
+  width: 100%;
+  display: block;
+}
+
 body .wrapper .products .product__card .container {
   display: -webkit-box;
   display: -ms-flexbox;
