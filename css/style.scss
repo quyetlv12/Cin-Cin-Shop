@@ -42,6 +42,10 @@ a {
   display: block;
   outline: none;
 }
+img{
+  width: 100%;
+  display: block;
+}
 /* Let's get this party started */
 ::-webkit-scrollbar {
   width: 10px;
@@ -204,12 +208,6 @@ body {
       display: none;
     }
 
-    .slider{
-      img{
-        width: 100%;
-        display: block;
-      }
-    }
 
     .products {
       .product__card {

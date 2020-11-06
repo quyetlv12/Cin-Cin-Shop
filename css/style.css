@@ -49,6 +49,11 @@ a {
   outline: none;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
   width: 10px;
@@ -256,6 +261,11 @@ body .wrapper .products .product__card .container {
 
 body .wrapper .products .product__card .container .slick-slide {
   outline: none;
+}
+
+body .wrapper .products .product__card .container .slick-slide img {
+  width: 100%;
+  display: block;
 }
 
 body .wrapper .products .product__card .container .card__product-item {
