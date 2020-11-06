@@ -218,6 +218,10 @@ body {
           justify-content: space-around;
           .slick-slide {
             outline: none;
+            img{
+              width:100%;
+              display:block;
+            }
           }
           .card__product-item {
             text-align: center;
